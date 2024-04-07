@@ -48,6 +48,14 @@ const images = [
     },
 ];
 
+let currentIndex = 0;
+
+function showNextImage() {
+    currentIndex = (currentIndex + 1) % images.url.length;
+    document.getElementById("img").src = images.url[currentIndex];
+
+}
+
 function createThumbnails() {
     images.forEach(function (image) {
         const img = document.createElement("img");
