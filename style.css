@@ -21,7 +21,33 @@ h1 {
 }
 
 .gallery-button {
-    background-color:aliceblue;
-    color:black
+    background-color:black;
+    color:white;
 }
 
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    
+
+}
+
+.search-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.search-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}

@@ -1,3 +1,14 @@
+const searchInput = document.querySelector('.search-input');
+const searchButton = document.querySelector('.search-button');
+
+searchButton.addEventListener('click', () => {
+    const searchTerm = searchInput.value;
+    console.log(`Searching for: ${searchTerm}`);
+});
+
+
+
+
 const thumbContainer = document.getElementById("thumb-container");
 const displayImage = document.getElementById("display");
 
@@ -84,4 +95,7 @@ function createBigImage(image) {
 
 createThumbnails();
 createBigImage(images[0]);
+
+
+
 
