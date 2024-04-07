@@ -23,6 +23,7 @@ h1 {
 .gallery-button {
     background-color:black;
     color:white;
+    transition: background-color 0.3s;
 }
 
 .search-container {
@@ -50,4 +51,13 @@ h1 {
     border: none;
     padding: 10px 15px;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color:blueviolet;
+}
+
+.gallery-button:hover {
+    background-color:blueviolet;
 }
