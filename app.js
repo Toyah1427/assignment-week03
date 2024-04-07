@@ -1,6 +1,16 @@
 const thumbContainer = document.getElementById("thumb-container");
 const displayImage = document.getElementById("display");
 
+thumbContainer.addEventListener('mouseenter', () => {
+  thumbContainer.style.backgroundColor = 'blue';
+});
+
+thumbContainer.addEventListener('mouseleave', () => {
+  thumbContainer.style.backgroundColor = '';
+});
+
+
+
 //add images
 const images = [
     {
